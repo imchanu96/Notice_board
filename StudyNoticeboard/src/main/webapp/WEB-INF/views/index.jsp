@@ -18,12 +18,11 @@
 		border: 1px solid black;
 	}
 	a{
-		background-color: red;
 		transition: background-color 0.5s;
 		text-decoration: none; 
 	}
 	a : hover{
-		background-color: blue;
+		background-color: green;
 	}
 	#title{
 		height: 100px;
@@ -41,7 +40,7 @@
 				<th colspan="5" style="height: 50px;">유형</th>
 			</tr>
 			<tr>
-				<td><a href="#">일반형태 게시판</a></td>
+				<td><a href="./NoticeBoard_listType.do">일반형태 게시판</a></td>
 				<td><a href="#">웹진형태 게시판</a></td>
 				<td><a href="#">갤러리형태 게시판</a></td>
 				<td><a href="#">FAQ형태 게시판</a></td>
