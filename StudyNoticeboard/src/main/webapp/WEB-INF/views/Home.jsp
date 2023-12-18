@@ -40,11 +40,11 @@
 				<th colspan="5" style="height: 50px;">유형</th>
 			</tr>
 			<tr>
-				<td><a href="./NoticeBoard_listType.do">일반형태 게시판</a></td>
-				<td><a href="#">웹진형태 게시판</a></td>
-				<td><a href="#">갤러리형태 게시판</a></td>
-				<td><a href="#">FAQ형태 게시판</a></td>
-				<td><a href="#">등록형태(온라인 문의) 게시판</a></td>				
+				<td><a href="./noticeboard/listType.do">일반형태 게시판</a></td>
+				<td><a href="./noticeboard/webMagazineType.do">웹진형태 게시판</a></td>
+				<td><a href="./noticeboard/galleryType.do">갤러리형태 게시판</a></td>
+				<td><a href="./noticeboard/FAQType.do">FAQ형태 게시판</a></td>
+				<td><a href="https://www.naver.com">등록형태(온라인 문의) 게시판</a></td>				
 			</tr>
 		</table>
 	</div>
