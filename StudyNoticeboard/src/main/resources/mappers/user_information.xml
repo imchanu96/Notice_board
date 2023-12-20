@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN
+" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+
+<mapper namespace="com.noticeboard.study">
+	<resultMap type="user_informationDto" id="user_informationResultMap">
+		<id column="USER_NUMBER" property="user_number"/>
+		<result column="USER_ID" property="user_id"/>
+		<result column="USER_PASSWORD" property="user_password"/>
+		<result column="USER_NICKNAME" property="user_nickname"/>
+		<result column="USER_EMAIL" property="user_email"/>
+		<result column="USER_CREATE_DATE" property="user_create_date"/>
+		<result column="USER_INFORMATION_MODIFY_DATE" property="user_information_modify_date"/>
+		<result column="USER_PASSWORD_MODIFY_DATE" property="user_password_modify_date"/>
+	</resultMap>
+</mapper>

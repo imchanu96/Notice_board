@@ -46,13 +46,13 @@
 <body>
 	<div id="background">
 		<h1 id="title">리스트형태 게시판</h1>
+<%-- 			${noticeboardList} --%>
 		<table>
 			<tr>
 				<th colspan="5">
 					테이블 구조의 리스트 형식으로 구성된 기본적인 게시판
 				</th>
 			</tr>
-			
 			<tr>
 				<td class="noticeboardNum" style="height: 50px;">게시글 번호</td>
 				<td class="noticeboardTitle" style="height: 50px;">제목</td>
